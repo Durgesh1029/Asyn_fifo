@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Async_fifo_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Async_fifo_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="754.000 ns"></ZoomEndTime>
+      <Cursor1Time time="272.668 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/Async_fifo_tb/i_w_clk" type="logic">
+      <obj_property name="ElementShortName">i_w_clk</obj_property>
+      <obj_property name="ObjectShortName">i_w_clk</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/i_r_clk" type="logic">
+      <obj_property name="ElementShortName">i_r_clk</obj_property>
+      <obj_property name="ObjectShortName">i_r_clk</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/i_w_rstn" type="logic">
+      <obj_property name="ElementShortName">i_w_rstn</obj_property>
+      <obj_property name="ObjectShortName">i_w_rstn</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/i_r_rstn" type="logic">
+      <obj_property name="ElementShortName">i_r_rstn</obj_property>
+      <obj_property name="ObjectShortName">i_r_rstn</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/i_w_inc" type="logic">
+      <obj_property name="ElementShortName">i_w_inc</obj_property>
+      <obj_property name="ObjectShortName">i_w_inc</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/i_r_inc" type="logic">
+      <obj_property name="ElementShortName">i_r_inc</obj_property>
+      <obj_property name="ObjectShortName">i_r_inc</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/o_empty" type="logic">
+      <obj_property name="ElementShortName">o_empty</obj_property>
+      <obj_property name="ObjectShortName">o_empty</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/o_full" type="logic">
+      <obj_property name="ElementShortName">o_full</obj_property>
+      <obj_property name="ObjectShortName">o_full</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/i_w_data" type="array">
+      <obj_property name="ElementShortName">i_w_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_w_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/o_r_data" type="array">
+      <obj_property name="ElementShortName">o_r_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_r_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/Burst_Words" type="array">
+      <obj_property name="ElementShortName">Burst_Words[0:8][7:0]</obj_property>
+      <obj_property name="ObjectShortName">Burst_Words[0:8][7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/WR_WORD" type="array">
+      <obj_property name="ElementShortName">WR_WORD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WR_WORD[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/RD_WORD" type="array">
+      <obj_property name="ElementShortName">RD_WORD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_WORD[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/D_SIZE" type="array">
+      <obj_property name="ElementShortName">D_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/A_SIZE" type="array">
+      <obj_property name="ElementShortName">A_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/P_SIZE" type="array">
+      <obj_property name="ElementShortName">P_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">P_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/BURST_LEN" type="array">
+      <obj_property name="ElementShortName">BURST_LEN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BURST_LEN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/FIFO_DEPTH" type="array">
+      <obj_property name="ElementShortName">FIFO_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/Write_CLK_PERIOD" type="array">
+      <obj_property name="ElementShortName">Write_CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Write_CLK_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Async_fifo_tb/Read_CLK_PERIOD" type="array">
+      <obj_property name="ElementShortName">Read_CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_CLK_PERIOD[31:0]</obj_property>
+   </wvobject>
+</wave_config>
